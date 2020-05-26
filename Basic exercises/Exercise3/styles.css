@@ -1,0 +1,9 @@
+@media screen and (max-width: 480px) {
+  #temptext {
+    display: flex;
+    border: 1px dotted purple; }
+    #temptext h3 {
+      color: blue;
+      font-size: 2em; } }
+
+/*# sourceMappingURL=styles.css.map */
