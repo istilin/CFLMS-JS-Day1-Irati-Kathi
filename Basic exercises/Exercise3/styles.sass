@@ -1,5 +1,4 @@
-@media screen and (max-width: 480px) 
-
+@media screen and (max-width: 480px)
 	#temptext
 		display: flex
 		border: 1px dotted purple
@@ -11,18 +10,38 @@
 
 @media screen and (min-width: 481px) 
 
-	div
+	.temperature
+		width: 100%
 		display: flex
 		border: 1px solid purple
+		justify-content: space-around
+		div
+			h3
+				color: blue
+				font-size: 6vw
 
-	h3
-		color: blue
-		font-size: 2em
+			p
+				color: red
+				font-size: 6vw
 
-	#temptext
+	.mess
+		width: 100%
 		display: flex
-		border: 1px dotted purple
+		border: 1px solid purple
+		justify-content: center
+		p
+			color: green
+			font-size: 6vw
 
-		h3
-			color: blue
-			font-size: 2em
+
+	.image
+		width: 10%
+		display: flex
+		justify-content: center
+		border: 1px solid purple
+		padding: 0 45%
+		img
+			min-width: 100%
+			max-width: 100%
+
+	
