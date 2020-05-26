@@ -1,9 +1,9 @@
 array1 = [1, 3, 5, 4, 5, 9, 6, 1, 2, 6, 5, 4, 4, 9, 7]
-array2 = [1, 3, 5, 4, 5, 9, 6, 1, 2, 6, 5, 4, 4, 9, 7]
-array3 = []
+arrlen = array1.length
+array2 = []
 
 
-for (j = 0; j < array2.length; j++){
+for (j = 0; j < arrlen; j++){
 	for (i = 0; i < array1.length - 1; i++){
 		if (i == 0){
 			max = array1[0]
@@ -16,10 +16,10 @@ for (j = 0; j < array2.length; j++){
 		}
 		
 	}
-	array3.unshift(array1[ind])
+	array2.unshift(array1[ind])
 	array1.splice(ind, 1)
 	
 	
 }
 
-document.write(array3)
+document.write(array2)

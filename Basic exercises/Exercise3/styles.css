@@ -5,5 +5,20 @@
     #temptext h3 {
       color: blue;
       font-size: 2em; } }
+@media screen and (min-width: 481px) {
+  div {
+    display: flex;
+    border: 1px solid purple; }
+
+  h3 {
+    color: blue;
+    font-size: 2em; }
+
+  #temptext {
+    display: flex;
+    border: 1px dotted purple; }
+    #temptext h3 {
+      color: blue;
+      font-size: 2em; } }
 
 /*# sourceMappingURL=styles.css.map */
